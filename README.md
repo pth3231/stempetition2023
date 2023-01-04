@@ -12,5 +12,18 @@ Password: stempetitiongang
 
 Vào link https://pth3231.github.io/stempetition2023/ để truy cập vào trang web
 
+Resources:
+- Fonts: https://fonts.google.com/
+- Material Icons: https://fonts.google.com/icons
+- Figma: https://www.figma.com/file/GPip6w5e8BH7EsFygaiqYU/Untitled?node-id=2%3A3&t=Rv5sTe1rgrsRMojn-1
 
-Phan Thái Hoà
+Requirements:
+- VSCode
+- Git
+
+Nên sử dụng Visual Studio Code để có khả năng code tốt nhất
+
+Team members:
+- Phan Thái Hoà
+- Trần Nhật Minh
+- ...2 more members
