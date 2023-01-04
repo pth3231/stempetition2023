@@ -10,5 +10,7 @@ Username: stempetition.fgang@gmail.com
 
 Password: stempetitiongang
 
+Vào link https://pth3231.github.io/stempetition2023/ để truy cập vào trang web
+
 
 Phan Thái Hoà
