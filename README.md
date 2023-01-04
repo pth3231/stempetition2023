@@ -4,4 +4,11 @@
 
 Dự án còn thô sơ và chưa phù hợp để release
 
+Sử dụng gmail sau để truy cập vào MongoDB Database:
+
+Username: stempetition.fgang@gmail.com 
+
+Password: stempetitiongang
+
+
 Phan Thái Hoà
