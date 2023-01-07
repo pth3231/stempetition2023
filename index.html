@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stempetition 2023</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Config lại màu mè cần dùng
+        
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'matte-black': '#212226',
+                        'matte-dark-blue': '#293556',
+                        'matte-blue': '#2e4583',
+                        'matte-light-blue': '#3e60c1', 
+                        'matte-azure': '#5983fc',
+                    },
+                }
+            }
+        }
+    </script>
 </head>
 <body>
-    
+    <nav class="flex px-4 md:px-24 lg:px-48 justify-between bg-matte-black text-white">
+        <div class="py-3">Logo</div>
+        <div class="py-3">
+            <a href="#" class="mx-4 md:mx-8 my-3 hover:border-b duration-200">Item 1</a>
+            <a href="#" class="mx-4 md:mx-8 my-3 hover:border-b duration-200">Item 2</a>
+            <a href="#" class="mx-4 md:mx-8 my-3 hover:border-b duration-200">Item 3</a>
+            <a href="#" class="ml-16 md:ml-32 mx-2 my-3 hover:border-b duration-200">Sign in</a>
+        </div>
+    </nav>
+    <header class="flex px-4 md:px-24 lg:px-48 justify-between">
+        <h1 class="text-4xl font-semibold">Title</h1>
+        <img src="#" alt="Ảnh minh hoạ title"/>
+    </header>
 </body>
 </html>
