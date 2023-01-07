@@ -15,7 +15,9 @@ Vào link https://pth3231.github.io/stempetition2023/ để truy cập vào tran
 Resources:
 - Fonts: https://fonts.google.com/
 - Material Icons: https://fonts.google.com/icons
-- Figma: https://www.figma.com/file/GPip6w5e8BH7EsFygaiqYU/Untitled?node-id=2%3A3&t=Rv5sTe1rgrsRMojn-1
+//- Figma: https://www.figma.com/file/GPip6w5e8BH7EsFygaiqYU/Untitled?node-id=2%3A3&t=Rv5sTe1rgrsRMojn-1
+
+Build trang lấy cảm hứng từ Spiderrum: https://spiderum.com/?sort=hot&page_idx=1 
 
 Requirements:
 - VSCode
