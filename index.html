@@ -18,6 +18,7 @@
                         'matte-blue': '#2e4583',
                         'matte-light-blue': '#3e60c1', 
                         'matte-azure': '#5983fc',
+                        'grey': '#F5F7FA',
                     },
                 }
             }
@@ -25,18 +26,68 @@
     </script>
 </head>
 <body>
-    <nav class="flex px-4 md:px-24 lg:px-48 justify-between bg-matte-black text-white">
+    <nav class="flex py-4 px-8 md:px-24 lg:px-48 justify-between bg-matte-black text-white">
         <div class="py-3">Logo</div>
         <div class="py-3">
-            <a href="#" class="mx-4 md:mx-8 my-3 hover:border-b duration-200">Item 1</a>
-            <a href="#" class="mx-4 md:mx-8 my-3 hover:border-b duration-200">Item 2</a>
-            <a href="#" class="mx-4 md:mx-8 my-3 hover:border-b duration-200">Item 3</a>
-            <a href="#" class="ml-16 md:ml-32 mx-2 my-3 hover:border-b duration-200">Sign in</a>
+            <a href="#" class="mx-4 hover:border-b duration-200">Tool</a>
+            <a href="#" class="mx-4 hover:border-b duration-200">About us</a>
+
+            <a href="#" class="ml-12 mx-4 hover:border-b duration-200">Sign up</a>
+            <a href="#" class="px-6 py-2 rounded-full bg-matte-dark-blue
+             hover:bg-matte-blue duration-200">Sign in</a>
         </div>
     </nav>
-    <header class="flex px-4 md:px-24 lg:px-48 justify-between">
-        <h1 class="text-4xl font-semibold">Title + hướng dẫn minh beo làm Git</h1>
-        <img src="#" alt="Ảnh minh hoạ title"/>
+    <header class="flex px-4 py-48 md:px-24 lg:px-48 justify-between bg-gradient-to-br text-white
+                    from-matte-black to-matte-dark-blue">
+        <div>
+            <h1 class="text-4xl font-semibold">Để việc học 
+                <span class="text-4xl font-bold">đơn giản</span> hơn
+            </h1>
+            <h2 class="text-xl mt-4 mb-6">với chúng tôi!</h2>
+
+            <a href="https://github.com/pth3231/stempetition2023" class="px-6 py-2 mt-4 rounded-full bg-matte-dark-blue text-slate-50
+            hover:bg-matte-blue duration-200">Check out our Github!</a>
+        </div>
+        <img src="#" alt="Ảnh minh hoạ title" class=""/>
     </header>
+    <main class="py-4 px-10 md:px-24 lg:px-48">
+        <h1 class="mt-4 text-2xl font-semibold">FEATURES</h1>
+        <div class="flex mt-8">
+            <div class="w-1/2">
+                <h1 class="text-lg font-semibold">Cải tiến chức năng</h1>
+                <p  class="mt-2">Nói thêm</p>
+            </div>
+            <img src="" alt="Ảnh mô tả Feature"/>
+        </div>
+        <div class="flex mt-4">
+            <img src="" alt="Ảnh mô tả Feature" class="w-1/2"/>
+            <div class="">
+                <h1 class="text-lg font-semibold">Hiệu quả</h1>
+                <p class="mt-2">Nói thêm</p>
+            </div>
+        </div>
+        <div class="flex mt-4">
+            <div class="w-1/2">
+                <h1 class="text-lg font-semibold">Nhanh chóng, tiện lợi</h1>
+                <p class="mt-2">Nói thêm</p>
+            </div>
+            <img src="" alt="Ảnh mô tả Feature" />
+        </div>
+        <div class="flex mt-4">
+            <img src="" alt="Ảnh mô tả Feature" class="w-1/2"/>
+            <div class="">
+                <h1 class="text-lg font-semibold">Gọn nhẹ</h1>
+                <p class="mt-2">Nói thêm</p>
+            </div>
+        </div>
+    </main>
+    <footer class="md:flex py-4 px-8 md:px-24 lg:px-48 bg-grey mt-4">
+        <div>
+            <h1>Non-productive product</h1>
+        </div>
+        <div>
+            
+        </div>
+    </footer>
 </body>
 </html>
